@@ -42,7 +42,7 @@ return [
 		],
 		'widget_catalog' => [$webpack.'css/widget-catalog.css'],
 		'profile' => [$webpack.'js/profile.css'],
-		'login' => [$webpack.'js/login.css'],
+		'login' => [$webpack.'js/login-page.css'],
 		'scores' => [
 			$cdnjs.'jqPlot/1.0.9/jquery.jqplot.min.css',
 			$webpack.'js/scores.css',
@@ -62,7 +62,7 @@ return [
 			$webpack.'css/util-rollback-confirm.css'
 		],
 		'media_import' => [$webpack.'css/util-media-import.css'],
-		'help' => [$webpack.'css/help.css'],
+		'help' => [$webpack.'css/help-page.css'],
 		'errors' => [$webpack.'css/errors.css'],
 		'fonts' => [
 			$g_fonts.'css?family=Kameron:700&text=0123456789%25',
